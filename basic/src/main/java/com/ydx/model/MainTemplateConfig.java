@@ -1,4 +1,4 @@
-package com.yupi.model;
+package com.ydx.model;
 
 import lombok.Data;
 
@@ -16,7 +16,7 @@ public class MainTemplateConfig {
     /**
      * 作者注释
      */
-    private String author = "yupi";
+    private String author = "takina";
 
     /**
      * 输出信息

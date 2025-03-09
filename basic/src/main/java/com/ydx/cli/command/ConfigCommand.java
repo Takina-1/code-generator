@@ -1,7 +1,7 @@
-package com.yupi.cli.command;
+package com.ydx.cli.command;
 
 import cn.hutool.core.util.ReflectUtil;
-import com.yupi.model.MainTemplateConfig;
+import com.ydx.model.MainTemplateConfig;
 import picocli.CommandLine.Command;
 
 import java.lang.reflect.Field;

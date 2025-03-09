@@ -1,8 +1,8 @@
-package com.yupi.cli.command;
+package com.ydx.cli.command;
 
 import cn.hutool.core.bean.BeanUtil;
-import com.yupi.generator.MainGenerator;
-import com.yupi.model.MainTemplateConfig;
+import com.ydx.generator.MainGenerator;
+import com.ydx.model.MainTemplateConfig;
 import lombok.Data;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
@@ -17,7 +17,7 @@ public class GenerateCommand implements Callable<Integer> {
     private boolean loop;
 
     @Option(names = {"-a", "--author"}, arity = "0..1", description = "作者", interactive = true, echo = true)
-    private String author = "yupi";
+    private String author = "ydx";
 
     @Option(names = {"-o", "--outputText"}, arity = "0..1", description = "输出文本", interactive = true, echo = true)
     private String outputText = "sum = ";

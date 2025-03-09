@@ -1,4 +1,4 @@
-package com.yupi.cli.pattern;
+package com.ydx.cli.pattern;
 
 public class Device {
     private String name;

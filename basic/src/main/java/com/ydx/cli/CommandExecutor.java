@@ -1,8 +1,8 @@
-package com.yupi.cli;
+package com.ydx.cli;
 
-import com.yupi.cli.command.GenerateCommand;
-import com.yupi.cli.command.ListCommand;
-import com.yupi.cli.command.ConfigCommand;
+import com.ydx.cli.command.GenerateCommand;
+import com.ydx.cli.command.ListCommand;
+import com.ydx.cli.command.ConfigCommand;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 

@@ -1,0 +1,9 @@
+com\yupi\cli\command\ConfigCommand.class
+com\yupi\Main.class
+com\yupi\cli\CommandExecutor.class
+com\yupi\cli\command\GenerateCommand.class
+com\yupi\generator\DynamicGenerator.class
+com\yupi\generator\MainGenerator.class
+com\yupi\cli\command\ListCommand.class
+com\yupi\generator\StaticGenerator.class
+com\yupi\model\DataModel.class

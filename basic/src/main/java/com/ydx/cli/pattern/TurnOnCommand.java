@@ -1,4 +1,4 @@
-package com.yupi.cli.pattern;
+package com.ydx.cli.pattern;
 
 public class TurnOnCommand implements Command {
     private Device device;
